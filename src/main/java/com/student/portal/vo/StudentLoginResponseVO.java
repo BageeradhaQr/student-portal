@@ -7,21 +7,11 @@ package com.student.portal.vo;
  * @author Bageeradha
  *
  */
-public class StudentLoginResponseVO {
-	
-	private String message;
+public class StudentLoginResponseVO extends ResponseVO {
 	
 	private String firstName;
 	
 	private String lastName;
-
-	public String getMessage() {
-		return message;
-	}
-
-	public void setMessage(String message) {
-		this.message = message;
-	}
 
 	public String getFirstName() {
 		return firstName;
